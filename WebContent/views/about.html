@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<div class="jumbotron text-center">
+        <h1>About Page</h1>
+
+        <p>{{ message }}</p>
+    </div>
+<ul>
+
+<li ng-repeat="x in names">
+{{x.name+','+x.distance+','+x.light}}</li>
+</ul>
+</body>
+</html>
